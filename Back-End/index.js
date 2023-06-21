@@ -11,7 +11,6 @@ server.use(
 ),
 
 server.use(express.json());
-
 server.use('/funcionario', funcionarioRoutes)
 
 const DB_USER = 'camillir81'
